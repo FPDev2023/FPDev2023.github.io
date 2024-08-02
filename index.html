@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="./Css/style.css">
-    <script type="text/javascript" src="./Services/keyService.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js"></script>
 </head>
 
 <body>
@@ -11,7 +11,11 @@
         <h1 class="center">Insert Key!</h1>
         <div class="center">
             <input  type="text" value="">
-            <button onclick="myFunction()">Submit</button>
+            <select id="op">
+                <option value="demo">Demo</option>
+                <option value="live">Live</option>
+              </select>
+            <button onclick="submitMain()">Submit</button>
         </div>
         <div><br></div>
     </div>
